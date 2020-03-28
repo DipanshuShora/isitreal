@@ -1,0 +1,70 @@
+#intro-carousel>.intro-owl-carousel .item>.intro-carousel-content {
+    width: 100%;
+    text-align: left;
+}
+@media (max-width: 767px) {
+  #intro-carousel{
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url('../img/other/smartphone.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin: 0;
+    height: 480px;
+  }
+    #intro-carousel>.intro-owl-carousel .item>.intro-carousel-content {
+      margin-top: 50%;
+      margin-left: 5%;
+    }
+    #intro-carousel>.intro-owl-carousel .item>.intro-carousel-content>span {
+        font-weight: 600;
+        font-size: .86em;
+        display: inline-block;
+        font-family: Lato, sans-serif;
+        color:rgb(35, 162, 243);
+    }
+}
+@media (width: 768px) {
+  #intro-carousel{
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url('../img/other/smartphone.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    margin: 0;
+    height: 670px;
+  }
+    #intro-carousel>.intro-owl-carousel .item>.intro-carousel-content {
+      margin-top: 40%;
+      margin-left: 5%;
+    }
+    #intro-carousel>.intro-owl-carousel .item>.intro-carousel-content>span {
+        font-weight: 600;
+        font-size: 1.6em;
+        font-family: Lato, sans-serif;
+        color:rgb(35, 162, 243);
+    }
+}
+@media (min-width: 769px) {
+  #intro-carousel{
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url('../img/other/smartphone.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    margin: 0;
+    height: 670px;
+  }
+  #intro-carousel>.intro-owl-carousel .item>.intro-carousel-content {
+      margin-top: 30%;
+      margin-left: 5%;
+  }
+    #intro-carousel>.intro-owl-carousel .item>.intro-carousel-content>span {
+        font-weight: 600;
+        font-size: 2em;
+        font-family: Lato, sans-serif;
+        color:rgb(35, 162, 243);
+    }
+}

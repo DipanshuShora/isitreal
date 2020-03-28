@@ -1,0 +1,9 @@
+$(window).scroll(function(){
+  if($(window).scrollTop()>900){
+    $('.top-button').css('display','block');
+  }
+  else{
+    $('.top-button').css('display','none');
+  }
+  console.log($(document).scrollTop());
+});

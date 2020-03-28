@@ -1,0 +1,96 @@
+#team{
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0, 0, 0, 0.8)),url('../img/other/Teambackground.jpg');
+  margin: 0;
+  padding: 0;
+  font-family: Lato, sans-serif;
+}
+#team > .container > .row > div >h3{
+  color: dodgerblue;
+}
+#team > .container > .row > div > img{
+  /*-webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, .8);
+  -moz-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, .8);
+  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, .8);*/
+}
+@media (min-width:769px) {
+  #team > .text-center{
+    padding: 50px;
+  }
+  #team > .text-center > h2{
+    margin: 0;
+    padding-top: 60px;
+    color: white;
+  }
+  #team > .container{
+    padding-bottom: 100px;
+  }
+  #team > .container > .row > div > img{
+    margin-right: 50px;
+    width: 27%;
+    margin-top: 6%;
+  }
+  #team > .container > .row > div > p{
+    text-align: justify;
+    margin: 30px 0;
+    color: white;
+    font-size: 1.1em;
+    display: flex;
+  }
+}
+@media (width:768px) {
+  #team > .text-center{
+    padding: 60px;
+  }
+  #team > .text-center > h2{
+    margin: 0;
+    color:white;
+  }
+  #team > .container{
+    padding-bottom: 60px;
+  }
+  #team > .container > .row > div > img{
+    margin-top: 6%;
+    margin-right: 30px;
+    width: 27%;
+  }
+  #team > .container > .row > div > p{
+    text-align: justify;
+    color: white;
+    font-size: .74em;
+    margin: 0 50px 0 0;
+  }
+  #team > .container > .row > div~div > p{
+    display: flex;
+  }
+}
+@media (max-width:767px) {
+  #team > .text-center{
+    padding-top: 30px;
+  }
+  #team > .text-center > h2{
+    margin: 0;
+    color: white;
+  }
+  #team > .container{
+    padding-bottom: 50px;
+  }
+  #team > .container > .row > div{
+    text-align: center;
+  }
+  #team > .container > .row > div > img{
+    display: block;
+    margin-top: 50px;
+    margin-left: 22%;
+    margin-right: 33%;
+    margin-bottom: 50px;
+    width: 60%;
+  }
+  #team > .container > .row > div > p{
+    font-size: .99em;
+    color: white;
+    display: block;
+    text-align: justify;
+    padding: 0 20px;
+    color: white;
+  }
+}
